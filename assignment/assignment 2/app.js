@@ -44,3 +44,23 @@ if (emailCheck.test(email) && passwordCheck.test(password)){
     return false;
 }
 }
+
+
+let sign =document.getElementById("sign");
+let nav =document.getElementById("nav");
+let body =document.getElementsByName("body");
+
+
+swish.addEventListener("click",function(){
+  if(btn.textContent.includes("dark")){
+      nav.style.backgroundColor="white"
+      body.style.backgroundColor="white"
+  }
+  else if(btn.textContent.includes("off") && mq. textContent.includes("off")){
+      img.src="/pexels-samerdaboul-1627933.jpg";
+      btn.textContent="turn on"
+      mq.textContent="turn on"
+      btn.style.backgroundColor="yellow"
+      mq.style.backgroundColor="red"
+  }    
+})
