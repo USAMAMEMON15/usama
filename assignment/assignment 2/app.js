@@ -26,7 +26,7 @@ var $grid = $('.container').isotope({
     }
     else{
         
-        document.getElementById("emailerror").innerHTML = "***invalid email"
+        document.getElementById("emailerror").innerHTML = "***Enter Your Valid Email***"
         return false;
 }
 
@@ -34,7 +34,7 @@ var $grid = $('.container').isotope({
         document.getElementById("passworderror").innerHTML = ""
     }
     else{
-        document.getElementById("passworderror").innerHTML = "***At leat min 5 characters"
+        document.getElementById("passworderror").innerHTML = "***Enter Your Password At Least Min 5 Characters***"
         return false;
     }
 
