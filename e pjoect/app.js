@@ -63,52 +63,53 @@ const songs =[
     },
     {
         id:"11",
+        songName: `To hai kaha<br>
+       <div class="subtitle">Uraan</div>`,
+     poster: "img/to hai kaha.jfif",
+    },
+    {
+        id:"12",
         songName: `12 Saal <br>
                         <div class="subtitle">Bilal Saeed </div>`,
      poster: "img/12 saal.jpg.jfif",
     },
     {
-        id:"12",
+        id:"13",
         songName: `Aadat<br>
                         <div class="subtitle">Atif aslam</div>`,
      poster: "img/aadat.jfif",
     },
     {
-        id:"13",
+        id:"14",
         songName: `Who lamhay<br>
                         <div class="subtitle">Atif aslam</div>`,
      poster: "img/who lamhe.jfif",
     },
     {
-        id:"14",
+        id:"15",
         songName: `Ik lamha<br>
                         <div class="subtitle">Azaan sami</div>`,
      poster: "img/ik lamha.jfif",
     },
     {
-        id:"15",
+        id:"16",
         songName: `Phir milangay <br>
-                        <div class="subtitle">(Coke studio) Season 14 by young stunner</div>`,
+                        <div class="subtitle">Young stunner</div>`,
      poster: "img/phir milangay.jpg",
     },
     {
-        id:"16",
+        id:"17",
         songName: `Aplifier <br>
                        <div class="subtitle">Imran khan</div>`,
      poster: "img/aplifier.jpg",
     },
     {
-        id:"17",
+        id:"18",
         songName: `Gumaan <br>
                         <div class="subtitle">Young stunner</div>`,
      poster: "img/gumaan.jfif",
     },
-    {
-        id:"18",
-        songName: `To hai kaha<br>
-       <div class="subtitle">Uraan</div>`,
-     poster: "img/to hai kaha.jfif",
-    },
+    
 ]
 
 Array.from(document.getElementsByClassName("songitem")).forEach((e,i)=>{
