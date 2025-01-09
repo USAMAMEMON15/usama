@@ -65,6 +65,7 @@ header .menu-side .playlist h4{
     color: #4c5262;
     cursor: pointer;
     display: flex;
+    list-style: none;
     align-items: center;
     transition: .3s linear;
 }  
@@ -165,7 +166,7 @@ header .master-play{
     display: flex;
     align-items: center;
     padding: 0px 20px;
-    margin-top: -80;
+    margin-top: -60px;
 }
 header .master-play .wave{
     width: 30px;
@@ -615,14 +616,15 @@ header .song-side .populer-song  .pop-song li:hover .img-play .bi{
 }
 header .song-side .populer-song  .pop-song li h5{
     padding: 10px 0px 0px 5px;
-    line-height: 15px;
+    line-height: 20px;
     font-size: 20px;
+    /* text-align: sp; */
     margin-top: 10px;
     width: 100px;
     /* text-align: center; */
     /* overflow: hidden; */
     white-space: nowrap;
-    text-overflow: ellipsis;
+    /* text-overflow: ellipsis; */
     margin-bottom: 80px;
 }
 /* .subtitile{
@@ -634,11 +636,11 @@ header .song-side .populer-song  .pop-song li h5 .subtitile{
     white-space: nowrap;
     text-overflow: ellipsis;
     font-size: 50px;
+    text-align: center;
     /* margin-left: 90px; */
     color: #4c5262;
     margin-top: 10px;
     padding-top: 10px;
-
 }
 header .song-side .populer-artist{
     width: 90%;
