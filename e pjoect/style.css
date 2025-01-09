@@ -427,7 +427,16 @@ header .song-side nav ul li{
     transition: .3s linear;    
 }
 header .song-side nav ul li:hover{
-    color: #fff;
+    color: white;
+}
+/* header .song-side nav ul a:hover{
+    /* background-color: #36e2ec; */
+    /* color: #36e2ec; */
+    /* list-style: none; */
+    /* text-decoration: none; */
+
+header .song-side nav ul li .active{
+    color: wheat;
 }
 header .song-side nav ul li:nth-child(1){
     color: #fff;

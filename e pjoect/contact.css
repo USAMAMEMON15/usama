@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111727;
+}
+.sub-header{
+    min-height: 40vh;
+    width: 100%;
+    background: url(img/nea-removebg-preview.png);
+    background-position:  center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #F5DEB3;
+    box-shadow: 3px 3px 3px #0b1320;
+
+    }
+    .sub-header h1{
+        margin-top: 20px;
+        font-size: 60px;
+        font-weight: bold;
+        color: white;
+    }
+    .sub-header p{
+        font-size: 20px;
+        text-align: center;
+        margin: 20px 500px;
+        color: aqua;
+
+    }
+
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.location iframe{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.contact{
+    /* background-color:#111727 ; */
+    /* background-color: #090f1f; */
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    background-color: #0b1320;
+    padding: 30px;
+    flex-basis: 48%;
+    margin-bottom: 50px;
+}
+.contact-col div{
+    display: flex;
+    /* margin-top: 100px; */
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-col .fa-solid{
+    margin-bottom: 10px;
+    color: aqua;
+    font-size: 20px;
+    margin-right: 30px;
+}
+.contact-col p{
+    margin-bottom: 10px;
+}
+.contact-col span{
+    color: aqua;
+    font-weight: 0;
+}
+.contact-col input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    outline: none;
+    font-size: 20px;
+    border: 1px solid aqua;
+    color: black;
+}
+.contact-col textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid aqua;
+    font-size: 20px;
+    color: black;
+}
+.contact-col button{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: aqua;
+    border: 1px solid  aqua;
+    padding: 10px 34px;
+    font-size: 20px;
+    background: black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+button:hover{
+    border: 1px solid black;
+    background-color: aqua;
+    color: black;
+    transition: 1s;
+}
+button{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: aqua;
+    border: 1px solid  aqua;
+    padding: 10px 34px;
+    font-size: 20px;
+    font-weight: bold;
+    background: black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+button:hover{
+    border: 1px solid black;
+    background-color: aqua;
+    color: black;
+    transition: 1s;
+}
+
+button a{
+    color: aqua;
+    list-style: none;
+    text-decoration: none;
+}
