@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        /* *{
+            padding: 0;
+            margin: 0;
+            border:0 ;
+        } */
+        .nav{
+            /* background-color: black;  */
+            color: rgb(252, 252, 252);
+            background: linear-gradient(to left,black,gray);
+            font-weight: bold;
+            
+        }
+        .nav ul{
+            margin-left: 40px;
+            /* padding: 20px; */
+        }
+        .nav ul li{
+            list-style: none;
+            float: left;
+            padding: 20px;
+            font-size: 20px;
+            margin: 0px 30px;
+            letter-spacing: 2px;
+            margin-top: 10px;
+            /* border: 2px solid white; */
+            border-radius:23px ;
+            /* margin-left: 10px; */
+            /* background-color: black; */
+            /* color: white; */
+            /* width: 100px; */
+            box-shadow: 2px 2px 2px rgb(255, 255, 255);
+
+        }
+        .nav ul li:hover{
+            cursor: pointer;
+            scale: 1.1;
+            color: rgb(0, 0, 0);
+            box-shadow: 2px 2px 2px rgb(0, 0, 0);
+        }
+
+        .container{
+            /* border: 2px solid black; */
+        }
+        body.Light{
+            background-color: white;
+            color: black;
+
+        }
+        body.Dark{
+            background-color: black;
+            color: whitesmoke;
+        }
+        button{
+            margin-left: 360px;
+            padding: 100px;
+            height: 60px;
+            margin-top: 10px;
+            width: 120px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav" id="nav">
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>content</li>
+            <li>servises</li>
+            <li>gallery</li>
+        </ul>
+        <button class="btn btn-outline-light  fw-bold" id="btn">Dark mode</button>
+    </div>
+    <div class="container-fluid">
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-7 col-sm-6 my-auto">
+                <h1 class="text-center mb-4 fw-bold">About</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, exercitationem. Mollitia a explicabo illo provident obcaecati placeat, sapiente facilis illum eveniet praesentium officiis necessitatibus rerum eaque quasi omnis modi! Accusamus, voluptatem repellat. Alias, ex quasi? Deserunt alias eius, doloremque rem cupiditate rerum, enim porro molestias fuga pariatur beatae asperiores ab.</p>
+            </div>
+            <div class="col-lg-5 mt-5 " id="img">
+                <img src="../../e pjoect/img/aplifier.jpg" height="500px" width="500px" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
